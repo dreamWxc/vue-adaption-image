@@ -1,0 +1,38 @@
+.layout-image-wrap{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.layout-image-model{
+
+}
+.layout-image-background{
+  transition-property: background-color;
+  //transition-duration: .5s;
+}
+.layout-image{
+  position: absolute;
+  z-index: 3;
+  transition-property: opacity;
+  vertical-align: middle;
+  //transition-duration: .5s;
+}
+.layout-load-error{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index: 2;
+}
+.layout-image-slot{
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index: 3;
+}
+.layout-hide-image{
+  opacity: 0;
+  visibility: hidden;
+}
