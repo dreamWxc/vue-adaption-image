@@ -1,4 +1,4 @@
-# vue-layout-image
+# vue-adaption-image
 
 > 图片自适应组件
 
